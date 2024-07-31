@@ -30,16 +30,16 @@ const avatarSrcs: Array<string> = [
 <MainLayout>
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Explore ScrewFast on GitHub (this template lmao)"
-    url="https://github.com/mearashadowfax/ScrewFast"
+    btnTitle="Hey, welcome to my brand new website. Click here to contact me!"
+    url="mailto:hello@sadzospotted.x10.mx"
   />
 
   <HeroSection
-    title=`Profesionalni snimci auta`
-    subTitle="Profesionalni snimci vašeg auta sa profesionalnim uredjivanjem snimka i slike."
-    primaryBtn="Istražite više slika"
+    title=`Hey. I'm a carspotter!`
+    subTitle="I'm a professional carspotter based around Serbia, with rock-solid social presence."
+    primaryBtn="Check out my socials"
     primaryBtnURL="/products"
-    secondaryBtn="Kontaktiraj me"
+    secondaryBtn="Contact me"
     secondaryBtnURL="/contact"
     withReview={false}
     avatars={avatarSrcs}
@@ -51,13 +51,13 @@ const avatarSrcs: Array<string> = [
   />
 
   <ClientsSection
-    title="Bio sam tamo."
-    subTitle="Bio sam na ovim mestima ili događajima, zbog ovog posla."
+    title="I've been there."
+    subTitle="I've been to the following events or places, including for carspots."
   />
 
   <FeaturesGeneral
-    title="Uvek pruža najbolji kvalitet."
-    subTitle="Uvek sam posvećen tome da vam pružim najbolji mogući kvalitet usluge, da li ste poznati kupac ili ne. Uvek ću ulagati isti trud na svoje usluge kao i trud koji ulažem na svoj TikTok kanal."
+    title="What makes my work better?"
+    subTitle="Here are a few reasons why you should contact me for your editing needs."
     src={featureImage}
     alt="ScrewFast products in floating boxes (UNCHANGED)"
     features={features}
@@ -96,39 +96,35 @@ const avatarSrcs: Array<string> = [
   />
 
   <TestimonialsSection
-    title="Pogledajte moju statistiku"
-    subTitle="Ove statistike se dele preko TikTok-a i Instagrama."
+    title="My statistics"
+    subTitle="Theses statistics are based around Instagram and TikTok."
     ;
     statistics={[
       {
         count: "2,3k+",
         description:
-          "pratioci na TikTok-u",
+          "followers on TikTok",
       },
       {
         count: "60k+",
         description:
-          "sviđanja se dele u svim TikTok video snimcima",
+          "likes across all videos on TikTok",
       },
       {
         count: "60",
         description:
-          "pratioci na Instagramu",
+          "followers on Instagram",
       },
       {
         count: "Broj 1",
-        description: "Autospotter preko Novog Pazara, Srbija",
+        description: "Carspotter in Novi Pazar, Serbia",
       },
     ]}
   />
 
-  <PricingSection pricing={pricing} />
-
-  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
-
   <HeroSectionAlt
-    title="Let's Build Together"
-    subTitle="ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
-    url="https://github.com/mearashadowfax/ScrewFast"
+    title="Ready? Contact me now."
+    subTitle="Let's talk business via email, or TikTok."
+    url="mailto:hello@sadzospotted.x10.mx"
   />
 </MainLayout>
